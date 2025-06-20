@@ -230,7 +230,7 @@ def run_compare():
 
 # ───────── Main ───────────────────────────────────────────────────────
 im = Image.open("favicon.png")
-st.set_page_config(page_title="AIOBIO WI Toolkit", page_icon=im, layout="wide")
+st.set_page_config(page_title="AIOBIO WI Toolkit", page_icon=im, layout="wide", initial_sidebar_state="expanded")
 mode = st.sidebar.radio("Mode", ["Adjust", "Compare"], index=0)
 st.title("🦷 AIOBIO WI Toolkit – " + ("Adjust" if mode=="Adjust" else "Compare"))
 
