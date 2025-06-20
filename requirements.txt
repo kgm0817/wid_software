@@ -1,0 +1,6 @@
+streamlit
+pillow
+numpy
+scikit-image
+requests
+streamlit-image-comparison
